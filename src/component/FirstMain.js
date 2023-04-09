@@ -1,5 +1,5 @@
 import '../App.css';
-import React, { useRef } from 'react';
+import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import FadeIn from 'react-fade-in';
 import {Link} from "react-router-dom";
@@ -41,7 +41,7 @@ const FirstMain = React.forwardRef((props, firstRef) => (
           </FadeIn>
         </div>
         <div className='scroll'>
-          <img src={img_arrow}/>
+          <img src={img_arrow} alt="Fleche bas"/>
         </div>
           <ul className="circles">
             <li></li>

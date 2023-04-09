@@ -1,5 +1,5 @@
 import '../App.css';
-import React, { useRef } from 'react';
+import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Fade from 'react-reveal/Fade';
 

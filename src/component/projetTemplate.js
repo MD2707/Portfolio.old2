@@ -6,7 +6,7 @@ function projetTemplate(props) {
     <Fade> 
     <div className="projet-img-container"
      alt=""> 
-     <img className="projet-img" src={require("../Image/projet/"+`${props.image}`)} alt="projet"/>
+     <img className="projet-img" src={require("../Image/projet/"+props.image)} alt="projet"/>
       <div className='hidden-projet-img'>
         <div className='projet-data'>
             <h1>{props.titre}</h1>

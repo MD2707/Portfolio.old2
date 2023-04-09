@@ -1,5 +1,5 @@
 import '../App.css';
-import React, { useRef } from 'react';
+import React from 'react';
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
 import img_github_logo from '../Image/github.png';
